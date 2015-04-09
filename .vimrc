@@ -289,6 +289,7 @@ map H ^
 
 " PSR-2 Please
 autocmd FileType php setlocal shiftwidth=4 tabstop=4 expandtab
+autocmd FileType blade setlocal autoindent
 
 let g:syntastic_php_checkers = ['php', 'phpcs']
 let g:syntastic_php_phpcs_args = "--standard=PSR2"
