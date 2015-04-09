@@ -53,7 +53,6 @@ Plugin 'majutsushi/tagbar'
 
 " Tab completion
 Plugin 'ervandew/supertab'
-let g:SuperTabContextDefaultCompletionType = "<c-n>"
 
 " Golang support
 Plugin 'fatih/vim-go'
@@ -94,6 +93,7 @@ Plugin 'tpope/vim-surround'
 
 " Gitgutter
 Plugin 'airblade/vim-gitgutter'
+let g:gitgutter_max_signs = 1500
 
 " Highlight tags when inside them
 Plugin 'gregsexton/MatchTag.git'
