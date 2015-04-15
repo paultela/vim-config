@@ -156,6 +156,10 @@ map <Leader>I gg=G``<cr>
 map L $
 map H ^
 
+" Move between buffers more quickly
+nnoremap <Leader>a :bp<cr>
+nnoremap <Leader>s :bn<cr>
+
 " PSR-2 Please
 autocmd FileType php setlocal shiftwidth=4 tabstop=4 expandtab
 autocmd FileType blade setlocal autoindent
