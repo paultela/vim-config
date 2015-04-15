@@ -14,6 +14,10 @@ Plugin 'michaeljsmith/vim-indent-object'
 " Better JS Support
 Plugin 'pangloss/vim-javascript'
 
+" Well we're at it, JXS too
+Plugin 'mxw/vim-jsx'
+let g:jsx_ext_required = 0
+
 " Toggle Comments in files
 Plugin 'tomtom/tcomment_vim'
 
@@ -37,7 +41,6 @@ Plugin 'vim-scripts/L9.git'
 
 " Better % support
 Plugin 'vim-scripts/matchit.zip'
-
 
 " Difficult to explain, but useful
 Plugin 'tpope/vim-abolish'
@@ -77,10 +80,6 @@ Plugin 'tpope/vim-unimpaired'
 
 " Syntax errors and linters and such
 Plugin 'scrooloose/syntastic.git'
-set statusline+=%#warningmsg#
-set statusline+=%{SyntasticStatuslineFlag()}
-set statusline+=%*
-
 let g:syntastic_always_populate_loc_list = 1
 let g:syntastic_auto_loc_list = 0
 let g:syntastic_check_on_open = 1
@@ -96,17 +95,14 @@ let g:gitgutter_max_signs = 1500
 " Highlight tags when inside them
 Plugin 'gregsexton/MatchTag.git'
 
-" Better PHP highlighting
-Plugin 'StanAngeloff/php.vim'
-
 " Support for Laravel's Blade
 Plugin 'xsbeats/vim-blade'
 
-" Marked 2 support
-Plugin 'itspriddle/vim-marked.git'
-
 " Hack!
 Plugin 'hhvm/vim-hack'
+
+" Marked 2 support
+Plugin 'itspriddle/vim-marked.git'
 
 " Ansible formatting
 Plugin 'chase/vim-ansible-yaml'
