@@ -4,9 +4,13 @@ set t_Co=256
 
 " Solarized config
 set background=dark
-let g:solarized_termtrans = 1
-colorscheme solarized
-hi SpecialKey ctermbg=none
+try
+	let g:solarized_termtrans = 1
+	colorscheme solarized
+	hi SpecialKey ctermbg=none
+catch
+	" deal with it
+endtry
 
 " don't wrap long lines
 set nowrap

@@ -4,15 +4,13 @@ Vim config optimized for PHP and web development, with some other things added.
 
 ## Install
 
-Clone the repo somewhere, then create symlinks to `~/.vimrc` and `~/.vim`.
-Something like this should work:
+Clone the repo somewhere, then `cd` into it and run `install.sh`
 
 ```bash
-ln -s /path/to/repo/.vimrc ~/.vimrc
-ln -s /path/to/repo/.vim ~/.vim
+git clone git@github.com:paultela/vim-config.git
+cd vim-config
+./install.sh
 ```
-
-Then, run `vim +PluginInstall` to start vim and install the plugins.
 
 ## Credits
 
