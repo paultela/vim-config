@@ -110,6 +110,9 @@ Plugin 'chase/vim-ansible-yaml'
 " Editorconfig, because it's probably a good idea
 Plugin 'editorconfig/editorconfig-vim'
 
+" Debugging from inside vim
+Plugin 'joonty/vdebug.git'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
