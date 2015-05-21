@@ -28,7 +28,7 @@ set scrolloff=4 sidescrolloff=10
 set noexpandtab
 set copyindent
 set preserveindent
-set softtabstop=0
+set softtabstop=4
 set shiftwidth=4
 set tabstop=4
 
