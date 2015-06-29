@@ -55,6 +55,9 @@ Plugin 'majutsushi/tagbar'
 " Tab completion
 Plugin 'ervandew/supertab'
 
+" ctrlp searching
+Plugin 'kien/ctrlp.vim'
+
 " Golang support
 Plugin 'fatih/vim-go'
 
