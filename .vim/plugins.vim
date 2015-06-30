@@ -116,6 +116,9 @@ Plugin 'editorconfig/editorconfig-vim'
 " Debugging from inside vim
 Plugin 'joonty/vdebug.git'
 
+" Indent guide
+Plugin 'nathanaelkane/vim-indent-guides'
+
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required

@@ -7,7 +7,7 @@ set background=dark
 try
 	let g:solarized_termtrans = 1
 	colorscheme solarized
-	hi SpecialKey ctermbg=none
+	hi SpecialKey ctermbg=NONE guibg=NONE
 catch
 	" deal with it
 endtry
@@ -170,4 +170,3 @@ autocmd FileType blade setlocal autoindent
 
 let g:syntastic_php_checkers = ['php', 'phpcs']
 let g:syntastic_php_phpcs_args = "--standard=PSR2"
-

@@ -10,6 +10,7 @@ set -e
 cwd=$(pwd)
 
 ln -s "$cwd"/.vimrc ~/.vimrc
+ln -s "$cwd"/.gvimrc ~/.gvimrc
 ln -s "$cwd"/.vim ~/.vim
 
 git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
