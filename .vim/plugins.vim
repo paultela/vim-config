@@ -101,8 +101,8 @@ Plugin 'gregsexton/MatchTag.git'
 " Support for Laravel's Blade
 Plugin 'xsbeats/vim-blade'
 
-" Hack!
-Plugin 'hhvm/vim-hack'
+" Better PHP syntax
+Plugin 'StanAngeloff/php.vim'
 
 " Marked 2 support
 Plugin 'itspriddle/vim-marked.git'
