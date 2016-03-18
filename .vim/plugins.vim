@@ -48,6 +48,7 @@ Plugin 'tpope/vim-abolish'
 " Airline is pretty cool
 Plugin 'bling/vim-airline'
 let g:airline#extensions#tabline#enabled = 1
+Plugin 'vim-airline/vim-airline-themes'
 
 " Tagbar
 Plugin 'majutsushi/tagbar'
