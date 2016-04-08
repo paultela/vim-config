@@ -59,6 +59,10 @@ set hidden
 " match indentation of previous line
 set autoindent
 
+" I like dashes and $ included in auto complete suggestions
+set iskeyword+=-
+set iskeyword+=$
+
 " don't blink the cursor
 set guicursor=a:blinkon0
 
