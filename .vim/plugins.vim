@@ -53,12 +53,6 @@ Plugin 'vim-airline/vim-airline-themes'
 " Tagbar
 Plugin 'majutsushi/tagbar'
 
-" Tab completion
-Plugin 'ervandew/supertab'
-
-" ctrlp searching
-Plugin 'kien/ctrlp.vim'
-
 " Golang support
 Plugin 'fatih/vim-go'
 
@@ -124,6 +118,13 @@ Plugin 'joonty/vdebug.git'
 
 " AutoDetect buffer settings
 Plugin 'ciaranm/detectindent'
+
+Plugin 'Shougo/vimproc'
+Plugin 'Shougo/unite.vim'
+Plugin 'Shougo/neocomplete.vim'
+Plugin 'shawncplus/phpcomplete.vim'
+
+Plugin 'ctrlpvim/ctrlp.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
