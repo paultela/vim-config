@@ -4,13 +4,12 @@ set t_Co=256
 
 " Solarized config
 set background=dark
-try
-	let g:solarized_termtrans = 1
-	colorscheme solarized
-	hi SpecialKey ctermbg=NONE guibg=NONE
-catch
-	" deal with it
-endtry
+let base16colorspace=256  " Access colors present in 256 colorspace
+colorscheme base16-solarized
+hi Normal ctermbg=none
+hi NonText ctermbg=none
+hi SpecialKey ctermbg=none
+hi SpellBad ctermbg=none
 
 " don't wrap long lines
 set nowrap

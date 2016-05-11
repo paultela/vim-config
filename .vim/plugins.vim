@@ -6,7 +6,8 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 " Solarized colorscheme
-Plugin 'altercation/vim-colors-solarized'
+"Plugin 'altercation/vim-colors-solarized'
+Plugin 'chriskempson/base16-vim'
 
 " Indent Code more easily
 Plugin 'michaeljsmith/vim-indent-object'
