@@ -109,7 +109,7 @@ let g:phpfmt_on_save = 0
 Plugin 'itspriddle/vim-marked.git'
 
 " Ansible formatting
-Plugin 'chase/vim-ansible-yaml'
+Plugin 'pearofducks/ansible-vim'
 
 " Editorconfig, because it's probably a good idea
 Plugin 'editorconfig/editorconfig-vim'
