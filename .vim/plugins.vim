@@ -101,9 +101,9 @@ Plugin 'xsbeats/vim-blade'
 Plugin 'StanAngeloff/php.vim'
 
 " phpfmt support
-Plugin 'dericofilho/vim-phpfmt'
-let g:phpfmt_psr2 = 1
-let g:phpfmt_on_save = 0
+Plugin 'beanworks/vim-phpfmt'
+let g:phpfmt_standard = 'PSR2'
+let g:phpfmt_autosave = 0
 
 " Marked 2 support
 Plugin 'itspriddle/vim-marked.git'

@@ -5,7 +5,7 @@ set t_Co=256
 " Solarized config
 set background=dark
 let base16colorspace=256  " Access colors present in 256 colorspace
-colorscheme base16-solarized
+colorscheme base16-solarized-dark
 hi Normal ctermbg=none
 hi NonText ctermbg=none
 hi SpecialKey ctermbg=none
