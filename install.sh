@@ -9,10 +9,11 @@ set -e
 
 cwd=$(pwd)
 
-ln -s "$cwd"/.vimrc ~/.vimrc
-ln -s "$cwd"/.gvimrc ~/.gvimrc
-ln -s "$cwd"/.vim ~/.vim
+rm -f ~/.vimrc && ln -s "$cwd"/.vimrc ~/.vimrc
+rm -f ~/.gvimrc && ln -s "$cwd"/.gvimrc ~/.gvimrc
+rm -f ~/.vim && ln -s "$cwd"/.vim ~/.vim
 
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+mkdir -p .vim/bundle
+rm -rf .vim/bundle/Vundle.vim && git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
 
 vim +PluginInstall +qall
