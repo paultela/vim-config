@@ -63,6 +63,9 @@ Plugin 'groenewege/vim-less'
 " Mustache, handlerbars
 Plugin 'mustache/vim-mustache-handlebars'
 
+" Vue highlighting
+Plugin 'posva/vim-vue'
+
 " Better markdown support
 Plugin 'tpope/vim-markdown'
 
