@@ -75,7 +75,7 @@ set splitright
 set splitbelow
 
 " don't beep for errors
-set visualbell
+set novisualbell
 
 " make backspace work in insert mode
 set backspace=indent,eol,start

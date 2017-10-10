@@ -5,7 +5,8 @@
 # Installation process requires setting up symlinks and installing vundle.
 # Requires that git is available.
 
-set -e
+set -euo pipefail
+IFS=$'\n\t'
 
 cwd=$(pwd)
 
