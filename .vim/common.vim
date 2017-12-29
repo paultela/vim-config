@@ -229,3 +229,6 @@ endif
 
 " YAML
 autocmd FileType yaml setlocal shiftwidth=2 tabstop=2 expandtab
+
+" Make start and end tags the same color
+hi link xmlEndTag xmlTag

@@ -14,6 +14,7 @@ Plugin 'michaeljsmith/vim-indent-object'
 
 " Better JS Support
 Plugin 'pangloss/vim-javascript'
+let g:javascript_plugin_flow = 1
 
 " Well we're at it, JSX too
 Plugin 'mxw/vim-jsx'
