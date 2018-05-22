@@ -10,76 +10,76 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'chriskempson/base16-vim'
 
 " Indent Code more easily
-Plugin 'michaeljsmith/vim-indent-object'
+"Plugin 'michaeljsmith/vim-indent-object'
 
 " Better JS Support
-Plugin 'pangloss/vim-javascript'
+"Plugin 'pangloss/vim-javascript'
 let g:javascript_plugin_flow = 1
 
 " Well we're at it, JSX too
-Plugin 'mxw/vim-jsx'
+"Plugin 'mxw/vim-jsx'
 let g:jsx_ext_required = 0
 
 " Toggle Comments in files
-Plugin 'tomtom/tcomment_vim'
+"Plugin 'tomtom/tcomment_vim'
 
 " Auto insert end in ruby and others
-Plugin 'tpope/vim-endwise'
+"Plugin 'tpope/vim-endwise'
 
 " Git support
-Plugin 'tpope/vim-fugitive'
+"Plugin 'tpope/vim-fugitive'
 
 " HAML, Sass, SCSS
-Plugin 'tpope/vim-haml'
+"Plugin 'tpope/vim-haml'
 
 " Better . support
-Plugin 'tpope/vim-repeat'
+"Plugin 'tpope/vim-repeat'
 
 " Ruby Support
-Plugin 'vim-ruby/vim-ruby'
+"Plugin 'vim-ruby/vim-ruby'
 
 " Vimscript utility
-Plugin 'vim-scripts/L9.git'
+"Plugin 'vim-scripts/L9.git'
 
 " Better % support
-Plugin 'vim-scripts/matchit.zip'
+"Plugin 'vim-scripts/matchit.zip'
 
 " Difficult to explain, but useful
-Plugin 'tpope/vim-abolish'
+"Plugin 'tpope/vim-abolish'
 
 " Airline is pretty cool
-Plugin 'bling/vim-airline'
+"Plugin 'bling/vim-airline'
 let g:airline#extensions#tabline#enabled = 1
-Plugin 'vim-airline/vim-airline-themes'
+"Plugin 'vim-airline/vim-airline-themes'
 
 " Tagbar
-Plugin 'majutsushi/tagbar'
+"Plugin 'majutsushi/tagbar'
 
 " Golang support
-Plugin 'fatih/vim-go'
+"Plugin 'fatih/vim-go'
 
 " Less support
-Plugin 'groenewege/vim-less'
+"Plugin 'groenewege/vim-less'
 
 " Mustache, handlerbars
-Plugin 'mustache/vim-mustache-handlebars'
+"Plugin 'mustache/vim-mustache-handlebars'
 
 " Vue highlighting
-Plugin 'posva/vim-vue'
+"Plugin 'posva/vim-vue'
 
 " Better markdown support
-Plugin 'tpope/vim-markdown'
+"Plugin 'tpope/vim-markdown'
 
 " Project Drawer, open if no files specified
-Plugin 'scrooloose/nerdtree'
+"Plugin 'scrooloose/nerdtree'
 nmap <leader>g :NERDTreeToggle<CR>
 nmap <leader>G :NERDTreeFind<CR>
 
 " Alignment and such
-Plugin 'godlygeek/tabular'
+"Plugin 'godlygeek/tabular'
 
 " Handy shortcuts
-Plugin 'tpope/vim-unimpaired'
+"Plugin 'tpope/vim-unimpaired'
 
 " Syntax errors and linters and such
 Plugin 'scrooloose/syntastic.git'
@@ -89,47 +89,45 @@ let g:syntastic_check_on_open = 1
 let g:syntastic_check_on_wq = 0
 
 " Surround things with things
-Plugin 'tpope/vim-surround'
+"Plugin 'tpope/vim-surround'
 
 " Gitgutter
-Plugin 'airblade/vim-gitgutter'
+"Plugin 'airblade/vim-gitgutter'
 let g:gitgutter_max_signs = 1500
 
 " Highlight tags when inside them
-Plugin 'gregsexton/MatchTag.git'
+"Plugin 'gregsexton/MatchTag.git'
 
 " Support for Laravel's Blade
-Plugin 'xsbeats/vim-blade'
+"Plugin 'xsbeats/vim-blade'
 
 " Better PHP syntax
-Plugin 'StanAngeloff/php.vim'
+"Plugin 'StanAngeloff/php.vim'
 
 " phpfmt support
-Plugin 'beanworks/vim-phpfmt'
+"Plugin 'beanworks/vim-phpfmt'
 let g:phpfmt_standard = 'PSR2'
 let g:phpfmt_autosave = 0
 
 " Marked 2 support
-Plugin 'itspriddle/vim-marked.git'
+"Plugin 'itspriddle/vim-marked.git'
 
 " Ansible formatting
-Plugin 'pearofducks/ansible-vim'
+"Plugin 'pearofducks/ansible-vim'
 
 " Editorconfig, because it's probably a good idea
 Plugin 'editorconfig/editorconfig-vim'
 
 " Debugging from inside vim
-Plugin 'joonty/vdebug.git'
+"Plugin 'joonty/vdebug.git'
 
 " AutoDetect buffer settings
-Plugin 'ciaranm/detectindent'
+"Plugin 'ciaranm/detectindent'
 
 Plugin 'Shougo/vimproc'
 Plugin 'Shougo/unite.vim'
 Plugin 'Shougo/neocomplete.vim'
-Plugin 'shawncplus/phpcomplete.vim'
-
-Plugin 'ctrlpvim/ctrlp.vim'
+"Plugin 'shawncplus/phpcomplete.vim'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

@@ -14,7 +14,7 @@ rm -f ~/.vimrc && ln -s "$cwd"/.vimrc ~/.vimrc
 rm -f ~/.gvimrc && ln -s "$cwd"/.gvimrc ~/.gvimrc
 rm -f ~/.vim && ln -s "$cwd"/.vim ~/.vim
 
-mkdir -p .vim/bundle
-rm -rf .vim/bundle/Vundle.vim && git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+curl -fLo .vim/autoload/plug.vim --create-dirs \
+    https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
-vim +PluginInstall +qall
+vim +PlugInstall
