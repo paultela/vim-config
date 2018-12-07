@@ -14,16 +14,16 @@ Plug 'tpope/vim-abolish'
 
 Plug 'editorconfig/editorconfig-vim'
 
-Plug '2072/PHP-Indenting-for-VIm'    " PHP indent script
+"Plug '2072/PHP-Indenting-for-VIm'    " PHP indent script
 Plug 'Yggdroot/indentLine'           " highlighting 4sp indenting
 Plug 'chrisbra/Colorizer'            " colorize colors
 Plug 'mhinz/vim-signify'             " show VCS changes
 Plug 'sheerun/vim-polyglot'          " newer language support
 Plug 'w0rp/ale'                      " realtime linting
 
-Plug 'Shougo/deoplete.nvim'          " async completion
-Plug 'roxma/nvim-yarp'               " deoplete dependency
-Plug 'roxma/vim-hug-neovim-rpc'      " deoplete dependency
+"Plug 'Shougo/deoplete.nvim'          " async completion
+"Plug 'roxma/nvim-yarp'               " deoplete dependency
+"Plug 'roxma/vim-hug-neovim-rpc'      " deoplete dependency
 let g:deoplete#enable_at_startup = 1
 let g:deoplete#enable_yarp = 1
 
